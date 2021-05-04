@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1501312227378682924
+--- !u!1 &1574792720736801671
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2490176532342746687}
+  - component: {fileID: 2558484917620416916}
   m_Layer: 0
   m_Name: Drehventil
   m_TagString: Untagged
@@ -16,23 +16,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2490176532342746687
+--- !u!4 &2558484917620416916
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501312227378682924}
+  m_GameObject: {fileID: 1574792720736801671}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 6012090786354206222}
-  - {fileID: 5674652229003848199}
+  - {fileID: 4502864405831775813}
+  - {fileID: 5750841654871270828}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7411159143441510345
+--- !u!1 &4026851219922522675
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -40,45 +40,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6012090786354206222}
-  - component: {fileID: 4291174413361746608}
-  - component: {fileID: 5630140254587614398}
+  - component: {fileID: 4502864405831775813}
+  - component: {fileID: 5381033866139245126}
+  - component: {fileID: 5925409397684302773}
   m_Layer: 0
-  m_Name: Base
+  m_Name: Base.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6012090786354206222
+--- !u!4 &4502864405831775813
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7411159143441510345}
+  m_GameObject: {fileID: 4026851219922522675}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.0001984525, y: 0, z: 0.00007648906}
+  m_LocalPosition: {x: -0.0000052712858, y: -0.00014957786, z: 0.00023733173}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
-  m_Father: {fileID: 2490176532342746687}
+  m_Father: {fileID: 2558484917620416916}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4291174413361746608
+--- !u!33 &5381033866139245126
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7411159143441510345}
-  m_Mesh: {fileID: 3909233067320746374, guid: 3966984d4b1b7854b917e49e1ccc8d74, type: 3}
---- !u!23 &5630140254587614398
+  m_GameObject: {fileID: 4026851219922522675}
+  m_Mesh: {fileID: -613200878065603006, guid: 3966984d4b1b7854b917e49e1ccc8d74, type: 3}
+--- !u!23 &5925409397684302773
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7411159143441510345}
+  m_GameObject: {fileID: 4026851219922522675}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -111,7 +111,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1 &8989623559050531654
+--- !u!1 &9065461111130201325
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,9 +119,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5674652229003848199}
-  - component: {fileID: 8003046303681260933}
-  - component: {fileID: 191095333900796487}
+  - component: {fileID: 5750841654871270828}
+  - component: {fileID: 7935336018840166958}
+  - component: {fileID: 263911478444969452}
   m_Layer: 0
   m_Name: Drehkopf
   m_TagString: Untagged
@@ -129,35 +129,35 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5674652229003848199
+--- !u!4 &5750841654871270828
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8989623559050531654}
+  m_GameObject: {fileID: 9065461111130201325}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.2829633, y: -0.0009836724, z: -0.0007016032}
+  m_LocalPosition: {x: 0.16330184, y: -0.00071689487, z: -0.00021141488}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
-  m_Father: {fileID: 2490176532342746687}
+  m_Father: {fileID: 2558484917620416916}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8003046303681260933
+--- !u!33 &7935336018840166958
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8989623559050531654}
+  m_GameObject: {fileID: 9065461111130201325}
   m_Mesh: {fileID: -7067576366948691909, guid: 3966984d4b1b7854b917e49e1ccc8d74, type: 3}
---- !u!23 &191095333900796487
+--- !u!23 &263911478444969452
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8989623559050531654}
+  m_GameObject: {fileID: 9065461111130201325}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
