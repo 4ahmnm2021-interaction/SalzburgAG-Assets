@@ -9,8 +9,6 @@ public class VentilSound : MonoBehaviour
     public AudioClip Ventil;
     public AudioSource audios;
 
-
-
     public void VentilSounds()
     {
         audios.PlayOneShot(Ventil);
